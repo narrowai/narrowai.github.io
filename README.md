@@ -1,2 +1,0 @@
-# narrowai.github.io
-website
