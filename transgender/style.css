@@ -1,3 +1,5 @@
+@import url(../style.css);
+
 @font-face {
 	font-family: Monocraft;
 	src: url('../fonts/monocraft/Monocraft.otf') format('opentype');
