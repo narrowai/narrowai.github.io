@@ -7,17 +7,18 @@
 	padding: 2px;
 	text-decoration: none;
 	color: inherit;
-	margin: 0px;
-	z-index: 999;
 }
 
 body {
 	font-family: sans-serif;
+	padding: 3%;
 	color: lightblue;
-	position: relative;
 }
-
 
 a {
 	color: lightgreen
+}
+
+h1{
+	margin: auto; /*fixed the back button issues*/
 }
