@@ -22,3 +22,10 @@ a {
 h1{
 	margin: auto; /*fixed the back button issues*/
 }
+
+/* Smaller tablets and mobiles */
+@media (max-width: 768px) {
+	body {
+	  font-size: 20px;
+	}
+  }
