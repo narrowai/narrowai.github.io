@@ -23,6 +23,17 @@ h1{
 	margin: auto; /*fixed the back button issues*/
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #222f;
+		color: mediumpurple;
+	}
+
+	a {
+		color: magenta;
+	}
+}
+
 /* Smaller tablets and mobiles */
 /*@media (max-width: 768px) {
 	body {
