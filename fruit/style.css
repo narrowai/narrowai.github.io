@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: Sour_Gummy;
-	src: url('../fonts/Sour_Gummy/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype');
+	src: url('../fonts/Sour_Gummy/SourGummy-VariableFont_wdth\,wght.ttf') format('truetype-variations');
 	font-style: normal;
 }
 
@@ -10,11 +10,10 @@ body {
 	font-family: Sour_Gummy;
 }
 
-
-.graph {
+.graph{
 	height:400px;
 	width:400px;
-	border:2px solid red;
+	border:3px solid red;
 	position: relative;
 }
 
@@ -46,7 +45,7 @@ body {
 	height: 3px;
 	width: 3px;
 	/*border:2px solid blueviolet;*/
-	background-color: blueviolet;
+	background-color: red;
 	position: absolute;
 	border-radius: 50%; /*rounds the circle*/
 }
@@ -56,4 +55,22 @@ body {
 	left: -6px;
 	width: 100px;
 	position: absolute;
+}
+
+
+.graph, .x_axis, .y_axis {
+	border-color: burlywood;
+}
+
+.point {
+	background-color: burlywood;
+}
+
+@media (prefers-color-scheme: dark) {
+	.graph, .x_axis, .y_axis {
+		border-color: darkred;
+	}
+	.point{
+		background-color: darkred;
+	}
 }
