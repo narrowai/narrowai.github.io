@@ -12,7 +12,7 @@
 	font-style: normal;
 }
 
-.back {
+.back { /* <a> tag*/
 	border: solid grey;
 	border-radius: 5px;
 	position: absolute;

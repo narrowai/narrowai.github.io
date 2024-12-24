@@ -46,7 +46,7 @@ body {
 
 .point p {
 	margin-top: 2px;
-	left: -6px;
+	left: -12px;
 	width: 100px;
 	position: absolute;
 }
@@ -64,6 +64,6 @@ body {
 		border-color: midnightblue;
 	}
 	.point{
-		background-color: midnightblue;
+		background-color: mediumpurple;
 	}
 }
